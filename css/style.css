@@ -1,0 +1,371 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	color: #81777a;
+	font-family: times, serif;
+	font-size: 16px;
+}
+
+/* header */
+header{
+	background: #fff;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.top-right{
+	float: right;
+}
+.top-right li{
+	float: left;
+}
+.top-right li a{
+	color: #333;
+	font-size: 150%;
+	display: block;
+	letter-spacing: 3px;
+	padding: 20px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.top-right li a:hover{
+	color: #aac19b;
+}
+.clearfix{
+	clear: both;
+}
+
+
+
+/* banner */
+.banner{
+	margin: 0 15% 25px 15%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+.banner img{
+	width: 100%;
+	height: auto;
+}
+.banner h1{
+	color: #fff;
+	font-family: arial, Verdana, sans-serif;
+	font-size: 350%;	
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #333;
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	right: 70%;
+}
+
+/* 佳句 */
+.sentence{
+	background: #f6f6f6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(90deg,#fff , #f5f6f8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg,#fff , #f5f6f8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg,#fff , #f5f6f8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg,#fff , #f5f6f8); /* Standard syntax */
+	padding: 25px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.sentence i{
+	color: #6a3906;
+	font-family: times,標楷體;
+	font-size: 100%;
+	font-style: italic;
+	line-height: 30px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+.sentence a{
+	color: #6a3906;
+	font-size: 80%;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+.sentence a:hover{
+	border-bottom: 1px dotted #111;
+	color: #333;
+}
+
+
+
+section{
+	margin: 0 15% 0 15%;
+	width: 70%;
+}
+
+/* Profile */
+#profile{
+	color: #686e75;
+	margin-bottom: 30px;
+
+}
+h2{
+	color: #82787b;
+	font-size: 120%;
+	padding: 60px 0 20px 0;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.list{
+	list-style-type: circle;
+	list-style-position: inside;
+	line-height: 30px;
+	margin: 20px 0;
+}
+
+/* PIC */
+#profile .picture{
+	float: left;
+	margin: 8px 30px 20px 0;
+	width: 40%;
+	min-width: 300px;
+}
+#profile .pic02{
+	float: right;
+	margin: 8px 0 20px 30px;
+	width: 48%;
+
+}
+#profile .picture img{
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #999;
+	width: 100%;
+	height: auto;
+}
+/* P */
+#profile p{
+	font-size: 100%;
+	line-height: 30px;
+	letter-spacing: 5px;
+	margin: 27px 0;
+	padding: 5px 0 15px 0;
+	text-align: left;
+	text-indent: 2.5em;
+}
+
+#profile .sub_title{
+	font-size: 120%;
+	text-indent: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/* Resume */
+h3{
+	color: #333;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 20px 0;
+	word-spacing: 5px;
+	text-transform: uppercase;
+}
+#resume strong{
+	color: #333;
+	display: inline-block;
+	font-size: 110%;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin: 35px 8px 0 0;
+}
+#resume p{
+	letter-spacing: 2px;
+	margin:10px 0;
+}
+#resume p.subtitle{
+	color: #9baac1;
+}
+#resume .edu, .work{
+	width: 80%;
+	margin: 0% 10% 5% 10%;
+}
+
+#resume .software, .lang{
+	color: #9baac1;
+	float: left;
+	width: 30%;
+	margin: 0% 10% 5% 10%;
+}
+h4{
+	color: #333;
+	font-weight: bold;
+}
+#resume .skill-bar{
+
+}
+#resume .skill-rate{
+	float:left;
+	height: 6px;
+	margin-right: 3px;
+	width:60px;
+}
+#resume .rate4{
+	background: #81777a;
+}
+#resume .rate3{
+	background: #a19690;
+}
+#resume .rate2{
+	background: #bdb4b0;
+}
+#resume .rate1{
+	background: #dad4ce;
+}
+#resume .rate0{
+	background: #f6f6f6;
+}
+#footer{
+	background: #f6f6f6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(90deg,#fff , #f5f6f8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg,#fff , #f5f6f8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg,#fff , #f5f6f8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg,#fff , #f5f6f8); /* Standard syntax */
+	margin-top: 30px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.information{
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+
+}
+.information li a{
+	border-bottom: 1px dotted #6e5e5b;
+	color: #6e5e5b;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+.information li a:hover{
+	border-bottom: none;
+}
+.list, .social{
+	width: 80%;
+	margin: 3% 10% 5% 10%;
+}
+.information .social a{
+	display: inline-block;
+}
+.ig, .fb{
+	margin-right: 10px;
+	width:30px;
+	height: auto;
+}
+#footer p{
+	text-align: center;
+}
+
+
+@media screen and (min-width: 588px) and (max-width: 768px) {
+	.top-right li a{
+		font-size: 100%;
+		width:25%;
+	}
+    .banner h1{
+		font-size: 200%;
+		position: absolute;
+		top: 30%;
+		left: 30%;
+		right: 70%;
+	}
+	#profile .picture, .pic02 {
+		width: 100%;
+	}
+	#resume .software, .lang{
+	width: 100%;
+	margin: 0% 10% 5% 10%;
+	}
+}
+@media screen and (max-width: 588px) {
+	header{
+		position: static;
+		top: 0;
+		left: 0;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.top-right li {
+		width:100%;
+	}
+	.top-right li a{
+		font-size: 100%;
+	}
+    .banner h1{
+		font-size: 150%;
+		position: absolute;
+		top: 30%;
+		left: 30%;
+		right: 70%;
+	}
+	.banner{
+		margin: 0;		
+	}
+
+	#profile .picture, .pic02 {
+		width: 100%;
+	}
+	#resume .edu, .work{
+		width: 100%;
+		margin: 10px;
+	}
+	#resume span{
+		display: block;
+		margin-top:10px;
+	}
+	#resume .software, .lang{
+		width: 100%;
+		margin: 10px;
+	}
+	section{
+		margin: 0 10%;
+		width: 100%;
+	}
+}
