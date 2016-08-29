@@ -124,13 +124,14 @@ header{
 	word-spacing: 2px;
 }
 .sentence a{
+	border-bottom: 1px dotted #6a3906;
 	color: #6a3906;
 	font-size: 80%;
 	padding-bottom: 3px;
 	text-decoration: none;
 }
 .sentence a:hover{
-	border-bottom: 1px dotted #111;
+	border-bottom: 1px dotted #333;
 	color: #333;
 }
 
