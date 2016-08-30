@@ -56,13 +56,13 @@ header{
 	left: 0;
 	z-index: 10;
 }
-.top-right{
+.topbar{
 	float: right;
 }
-.top-right li{
+.topbar li{
 	float: left;
 }
-.top-right li a{
+.topbar li a{
 	color: #333;
 	font-size: 150%;
 	display: block;
@@ -71,7 +71,7 @@ header{
 	text-decoration: none;
 	text-transform: uppercase;
 }
-.top-right li a:hover{
+.topbar li a:hover{
 	color: #aac19b;
 }
 .clearfix{
